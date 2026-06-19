@@ -1,4 +1,4 @@
-1. # AI SaaS Onboarding Intelligence Agent
+# AI SaaS Onboarding Intelligence Agent
 
 An AI-powered onboarding automation system built using n8n, Claude, Gmail, Google Sheets and Telegram.
 
@@ -6,7 +6,7 @@ The workflow monitors onboarding activity, segments users based on activation si
 
 Built as a portfolio project demonstrating AI workflow orchestration, product-led growth automation, and customer onboarding intelligence.
 
-2. ## Demo
+## Demo
 
 🎥 Loom Demo: [Add Link]
 
@@ -23,7 +23,7 @@ Built as a portfolio project demonstrating AI workflow orchestration, product-le
 6. Notifications delivered
 
 
-3. # Architecture Diagram:
+# Architecture Diagram:
 <img width="1372" height="891" alt="image" src="https://github.com/user-attachments/assets/43e1f729-8ef8-4552-a32b-ce221bda92f2" />
 
 ### Components
@@ -48,7 +48,7 @@ AI Personalization
        ↓
 Email + CRM Update
 
-4. ## Business Problem
+## Business Problem
 
 Many SaaS companies lose users during onboarding because customers fail to complete key activation milestones.
 
@@ -60,7 +60,7 @@ Typical challenges:
 
 Without proactive intervention, these users often churn before experiencing product value.
 
-5. ## Activation Framework
+## Activation Framework
 | Activity          | Points |
 | ----------------- | ------ |
 | API Key Created   | 40     |
@@ -73,7 +73,7 @@ Without proactive intervention, these users often churn before experiencing prod
 | 40-79            | On Track   |
 | 80-100           | Power User |
 
-6. # Product Decisions:
+## Product Decisions:
 1. Why Rule Engine Instead of AI Scoring?
 Scoring is deterministic and business-critical. Using a rule engine improves explainability, reduces hallucination risk, and keeps customer segmentation consistent. Customer segmentation impacts business actions.
 Using deterministic rules improves:
@@ -88,7 +88,7 @@ AI is reserved for communication generation rather than critical business decisi
 2. Why Use AI?
 AI is used for personalized engagement messaging, not for critical business decisions.
 
-7. # Workflow Actions:
+## Workflow Actions:
 At Risk:
 - Personalized recovery email
 - Telegram alert to Customer Success
@@ -103,7 +103,7 @@ Power User:
 - Expansion opportunity identification
 - CRM update
 
-8. ## Weekly Onboarding Insights Workflow
+## Weekly Onboarding Insights Workflow
 
 Runs every Monday.
 
@@ -119,7 +119,7 @@ Claude generates executive summary and improvement recommendations.
 
 Summary delivered to Telegram.
 
-9. ## Future Roadmap
+## Future Roadmap
 
 - Event-driven architecture using webhooks
 - SplitInBatches for large-scale processing
