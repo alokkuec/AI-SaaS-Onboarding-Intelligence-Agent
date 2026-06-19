@@ -6,6 +6,15 @@ The workflow monitors onboarding activity, segments users based on activation si
 
 Built as a portfolio project demonstrating AI workflow orchestration, product-led growth automation, and customer onboarding intelligence.
 
+## Tech Stack
+
+- n8n
+- Claude (Anthropic)
+- Google Sheets
+- Gmail
+- Telegram
+- JavaScript
+
 ## Demo
 
 🎥 Loom Demo: [Add Link]
@@ -73,8 +82,23 @@ Without proactive intervention, these users often churn before experiencing prod
 | 40-79            | On Track   |
 | 80-100           | Power User |
 
+## Sample Business Outcomes
+
+The workflow demonstrates:
+
+- Automated user health scoring
+- Personalized onboarding engagement
+- Automated CRM enrichment
+- Weekly onboarding analytics
+
+Example Results:
+
+- 100% automated user segmentation
+- Personalized engagement for every user segment
+- Weekly onboarding insights generated automatically
+
 ## Product Decisions:
-1. Why Rule Engine Instead of AI Scoring?
+### Why Rule Engine Instead of AI Scoring?
 Scoring is deterministic and business-critical. Using a rule engine improves explainability, reduces hallucination risk, and keeps customer segmentation consistent. Customer segmentation impacts business actions.
 Using deterministic rules improves:
 
@@ -85,7 +109,7 @@ Using deterministic rules improves:
 
 AI is reserved for communication generation rather than critical business decisions.
 
-2. Why Use AI?
+### Why Use AI?
 AI is used for personalized engagement messaging, not for critical business decisions.
 
 ## Workflow Actions:
@@ -119,6 +143,18 @@ Claude generates executive summary and improvement recommendations.
 
 Summary delivered to Telegram.
 
+## Current Limitations
+
+This project is intentionally implemented as an MVP.
+
+Known limitations:
+
+- Uses scheduled batch processing instead of webhooks
+- Uses mock onboarding data
+- Does not currently integrate with production analytics tools
+- Does not support real-time event streaming
+
+These are planned future enhancements.
 ## Future Roadmap
 
 - Event-driven architecture using webhooks
