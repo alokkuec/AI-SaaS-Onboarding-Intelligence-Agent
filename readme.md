@@ -104,9 +104,9 @@ Power User:
 - CRM update
 
 ## Weekly Onboarding Insights Workflow
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/9b26c2fc-2cbb-4a14-b7cf-057bc5e1154b" />
 
 Runs every Monday.
-
 Aggregates:
 
 - Total users
