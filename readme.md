@@ -57,6 +57,9 @@ AI Personalization
        ↓
 Email + CRM Update
 
+<img width="1052" height="976" alt="image" src="https://github.com/user-attachments/assets/e54455c4-d140-4585-b28b-7664f054cfb2" />
+
+
 ## Business Problem
 
 Many SaaS companies lose users during onboarding because customers fail to complete key activation milestones.
